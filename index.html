@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violette's Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #F2F2F2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto; 
+            background-color: #FFFFFF;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .card-white {
+            text-align: center;
+            background-color: #F5E6CB;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 40px;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        h1, h2 {
+            color: #83a5af; /* Light Slate Gray */
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+
+        .profile-pic {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+            margin-botton: 20px; 
+        }
+
+        .button-link {
+            display: inline-block;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: #5a6b73;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .button-link:hover {
+            background-color: #3FA796; 
+        }
+
+        .list-inline {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+
+        .list-inline li {
+            display: inline;
+            padding: 0 10px;
+        }
+
+        .list-inline a {
+            text-decoration: none;
+            color: #5a6b73; 
+            transition: color 0.3s;
+        }
+
+        .list-inline a:hover {
+            color: #30776A; 
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-white profile">
+            <img src="images/profile.png" class="profile-pic">
+            <h1>Violette</h1>
+            <p>Fashion lover and music enjoyer💜</p>
+            <a href="#" class="button-link">Discover More</a>
+        </div>
+        <div class="card-white">
+            <h2>🎓 Education</h2>
+            <p>4th year university student (Currently studying in France)</p>
+        </div>
+        <div class="card-white">
+            <h2>🤍 Hobbies</h2>
+            <p>Listening to music, playing instruments, thrift shopping</p>
+        </div>
+        <div class="card-white">
+            <h2>🌟 Passionate About</h2>
+            <p>Fashion, music concerts, travelling</p>
+        </div>
+        <div class="footer card-white">
+            <ul class="list-inline">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
